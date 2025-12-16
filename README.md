@@ -56,13 +56,13 @@ Minutiae are rotated into a common reference frame before matching
 
 This alignment significantly improves matching performance.
 
-Identification Mode (1:N Matching)
+5. Identification Mode (1:N Matching)
 
 The system operates in identification mode, where a single query fingerprint is compared against all fingerprints in the database. The fingerprint with the highest similarity score is selected as the best match.
 
 An access decision is then made based on a global threshold.
 
-Evaluation and Threshold Selection
+6.Evaluation and Threshold Selection
 
 System performance is evaluated using labeled genuine and impostor fingerprint pairs. The evaluation includes:
 
@@ -82,7 +82,7 @@ Overall accuracy ≈ 80%
 
 PCA alignment improved matching performance in approximately 90% of evaluated cases
 
-User Interface
+7.User Interface
 
 An interactive Gradio-based user interface allows users to:
 
